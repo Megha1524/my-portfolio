@@ -108,7 +108,7 @@ const Navbar = () => {
             </div>
           </section>
 
-          <button className="btn1"><a href="/cv.pdf">download cv</a></button>
+          <button className="btn1"><a href="/cv.pdf" download={true}>download cv</a></button>
         </main>
       </div>
     </header>
