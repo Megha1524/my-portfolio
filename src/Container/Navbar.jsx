@@ -112,7 +112,7 @@ const Navbar = () => {
 
           <button className="btn1">
             <a
-              href={resumePath.filename}
+              href="./cv.pdf"
               download
             >
               download cv
