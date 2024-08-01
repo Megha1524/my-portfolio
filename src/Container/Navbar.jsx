@@ -108,7 +108,10 @@ const Navbar = () => {
           </section>
 
           <button className="btn1">
-            <a href={require("../../public/cv.pdf")} download="cv.pdf">
+            <a
+              href={require("../../public/cv.pdf")}
+              download={require("../../public/cv.pdf")}
+            >
               download cv
             </a>
           </button>
