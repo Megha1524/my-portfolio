@@ -112,7 +112,7 @@ const Navbar = () => {
 
           <button className="btn1">
             <a
-              href="/cv.pdf"
+              href="https://github.com/SunilChauhan24/my-portfolio/blob/main/src/Container/cv.pdf"
               download
             >
               download cv
