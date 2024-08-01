@@ -109,12 +109,20 @@ const Navbar = () => {
 
           <button className="btn1">
             <a
+              href="https://github.com/SunilChauhan24/my-portfolio/blob/main/public/cv.pdf"
+              download
+            >
+              download cv
+            </a>
+          </button>
+          {/* <button className="btn1">
+            <a
               href={require("../../public/cv.pdf")}
               download={require("../../public/cv.pdf")}
             >
               download cv
             </a>
-          </button>
+          </button> */}
         </main>
       </div>
     </header>
