@@ -5,6 +5,9 @@ import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
+  const resumePath = {
+    filename: require("./cv.pdf")
+  }
   const [showIntro, setShowIntro] = useState(false);
 
   useEffect(() => {
@@ -109,7 +112,7 @@ const Navbar = () => {
 
           <button className="btn1">
             <a
-              href="https://github.com/SunilChauhan24/my-portfolio/blob/main/public/cv.pdf"
+              href={resumePath.filename}
               download
             >
               download cv
