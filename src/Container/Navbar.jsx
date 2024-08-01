@@ -3,6 +3,7 @@ import "./Navbar.css";
 import logo from "../img/sc.png";
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import { mycv } from "../../public/cv.pdf";
 
 const Navbar = () => {
   const [showIntro, setShowIntro] = useState(false);
@@ -94,7 +95,6 @@ const Navbar = () => {
       </nav>
       <div className="landing">
         <main className="container">
-        
           <p>Hello I'm</p>
           <section className="animation">
             <div className="first">
@@ -108,7 +108,11 @@ const Navbar = () => {
             </div>
           </section>
 
-          <button className="btn1"><a href="/cv.pdf" download={true}>download cv</a></button>
+          <button className="btn1">
+            <a href={mycv} download={"download"}>
+              download cv
+            </a>
+          </button>
         </main>
       </div>
     </header>
