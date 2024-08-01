@@ -3,7 +3,6 @@ import "./Navbar.css";
 import logo from "../img/sc.png";
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import { mycv } from "../../public/cv.pdf";
 
 const Navbar = () => {
   const [showIntro, setShowIntro] = useState(false);
@@ -109,7 +108,7 @@ const Navbar = () => {
           </section>
 
           <button className="btn1">
-            <a href={mycv} download={"download"}>
+            <a href={require("../../public/cv.pdf")} download="cv.pdf">
               download cv
             </a>
           </button>
