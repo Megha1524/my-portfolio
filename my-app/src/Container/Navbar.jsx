@@ -5,6 +5,9 @@ import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
+  const resumePath = {
+    filename: require("./cv.pdf")
+  }
   const [showIntro, setShowIntro] = useState(false);
 
   useEffect(() => {
@@ -94,7 +97,6 @@ const Navbar = () => {
       </nav>
       <div className="landing">
         <main className="container">
-        
           <p>Hello I'm</p>
           <section className="animation">
             <div className="first">
@@ -108,7 +110,22 @@ const Navbar = () => {
             </div>
           </section>
 
-          <button className="btn1"><a href="/cv.pdf">download cv</a></button>
+          <button className="btn1">
+            <a
+              href="/cv.pdf"
+              download
+            >
+              download cv
+            </a>
+          </button>
+          {/* <button className="btn1">
+            <a
+              href={require("../../public/cv.pdf")}
+              download={require("../../public/cv.pdf")}
+            >
+              download cv
+            </a>
+          </button> */}
         </main>
       </div>
     </header>

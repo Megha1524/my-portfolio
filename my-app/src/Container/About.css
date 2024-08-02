@@ -57,11 +57,11 @@
 @media (max-width: 768px) {
   .about-section {
     flex-direction: column; /* Stack elements vertically */
-    padding: 20px; /* Adjust padding for smaller screens */
+    padding: 0px; /* Adjust padding for smaller screens */
   }
 
   .about-image {
-    padding: 10px 0; /* Adjust padding for smaller screens */
+    padding: 0px 0; /* Adjust padding for smaller screens */
     transform: translateY(20px); /* Adjust transform for vertical layout */
   }
 

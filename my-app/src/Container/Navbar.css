@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  height: 100vh;
+  /* height: 70vh; */
   padding: 36px 100px;
   background-image: url("../img/model_bw.png");
   background-position: right;
@@ -342,7 +342,7 @@ body {
 }
 
 header {
-  height: 100vh;
+  /* height: 100vh; */
   padding: 36px 20px; /* Reduced padding for smaller screens */
   background-image: url("../img/model_bw.png");
   background-position: right;
