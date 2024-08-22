@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+.projects-section {
+  padding: 20px;
+  text-align: center;
+  background-color: #ece7e1;
+  cursor: pointer;
+}
+
+.projects-section h2 {
+  font-size: 12vmin;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  padding: 10px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-slide:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 250px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensures the images cover the container without stretching */
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.swiper-slide:hover img {
+  transform: scale(1.1);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #333;
+  display: none;
+}
+
+.swiper-pagination-bullet {
+  background: #333;
+}
+
+.swiper-pagination-bullet-active {
+  background: #007bff;
+}
+
+.project-card {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+}
+
+.project-card h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: rgba(246, 18, 18, 0.7);
+  opacity: 0;
+  transition: opacity 1s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.project-card:hover h3 {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.projects-section h2 {
+  animation: fadeInUp 1s ease-out;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .projects-section {
+    padding: 10px;
+  }
+
+  .project-card h3 {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 5px;
+  }
+
+  .project-card h3 {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 640px) {
+  .projects-section {
+    padding: 5px;
+  }
+
+  .project-card h3 {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 750px) {
+  .projects-section {
+    padding: 5px;
+  }
+
+  .project-card h3 {
+    font-size: 0.8em;
+  }
+}
