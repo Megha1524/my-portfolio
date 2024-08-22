@@ -5,7 +5,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import deadpool from "../img/crypto.avif";
-import shield from "../img/shield.jpg";
 import img1 from "../img/store.jpg";
 import img3 from "../img/weather.jpg";
 import img4 from "../img/cake.jpg";
