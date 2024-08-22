@@ -54,9 +54,9 @@ const Projects = () => {
         slidesPerView={4}
         pagination={{ clickable: true }}
         breakpoints={{
-          350:{
-            slidesPerView:1,
-            spaceBetween:20
+          350: {
+            slidesPerView: 1,
+            spaceBetween: 20,
           },
           640: {
             slidesPerView: 1,
