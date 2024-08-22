@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
-import deadpool from "../img/deadpool.jpg";
+import deadpool from "../img/crypto.avif";
 import shield from "../img/shield.jpg";
 import img1 from "../img/store.jpg";
 import img3 from "../img/weather.jpg";
@@ -32,14 +32,18 @@ const Projects = () => {
       title: "Bakery",
       link: "https://github.com/SunilChauhan24/Bakery",
     },
-    { src: deadpool, alt: "Project 4", title: "node project" },
     {
       src: game,
       alt: "Project 5",
       title: "Game Station",
       link: "https://github.com/SunilChauhan24/Game-Station",
     },
-    { src: deadpool, alt: "Project 6", title: "node project" }, // Add more images as needed
+    {
+      src: deadpool,
+      alt: "Project 6",
+      title: "Crypto Tracker",
+      link: "https://github.com/SunilChauhan24/Crypto-Tracker",
+    }, // Add more images as needed
   ];
 
   return (
