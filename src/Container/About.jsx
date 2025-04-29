@@ -1,7 +1,7 @@
 import React from 'react'
 import  { useEffect, useState, useRef} from "react";
 import "./About.css";
-import aboutimg from "../img/about.JPG";
+import aboutimg from "../img/meghaimg.jpg";
 
 const About = () => {
   const [showAbout, setShowAbout] = useState(false);
