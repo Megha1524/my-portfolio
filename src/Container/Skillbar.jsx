@@ -46,23 +46,45 @@ const Skillbar = () => {
           <h3>Education</h3>
           <ul>
             <li>
+              <h4>SSC</h4>
+              <p>
+                <span className="institute">Saraswati Vidhya Sankul</span>
+                ,<br />
+                <span className="year"> 2019-2020</span>,
+                <br />
+                <span className="cgpa"> 92.12% </span>
+              </p>
+            </li>
+            <li>
+              <h4>HSC</h4>
+              <p>
+                <span className="institute">Saraswati Vidhya Sankul</span>
+                ,<br />
+                <span className="year"> 2020-2021</span>,
+                <br />
+                <span className="cgpa"> 89.23%</span>
+              </p>
+            </li>
+            <li>
               <h4>Bachelor of Computer Applications</h4>
               <p>
                 <span className="institute">
                   President Institute of Computer Application
                 </span>
-                ,<br /><span className="year"> 2021-2023</span>,
-                <br /><span className="cgpa"> CGPA: 8.5</span>
+                ,<br />
+                <span className="year"> 2021-2023</span>,
+                <br />
+                <span className="cgpa"> CGPA: 6.17</span>
               </p>
             </li>
-            <li>
+            {/* <li>
               <h4>Master of Computer Application</h4>
               <p>
                 <span className="institute">Indus University</span>,
                 <br /><span className="year"> 2023-2025</span>,
                <br /> <span className="cgpa"> CGPA: 9.0</span>
               </p>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
